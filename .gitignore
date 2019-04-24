@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DevOpsInADay/.vs
+/DevOpsInADay/DevOpsInADayDatabase/bin/Debug
+/DevOpsInADay/DevOpsInADayDatabase/obj/Debug
+/DevOpsInADay/DevOpsInADayDatabase/DevOpsInADayDatabase.sqlproj.user
+/DevOpsInADay/DevOpsInADayWeb/bin/Debug/netcoreapp2.1
+/DevOpsInADay/DevOpsInADayWeb/obj
+/DevOpsInADay/DevOpsInADayWeb.Test/bin/Debug/netcoreapp2.1
+/DevOpsInADay/DevOpsInADayWeb.Test/obj
+/DevOpsInADay/DevOpsInADayDatabase
+/DevOpsInADay/DevOpsInADayWeb/bin/Debug/netcoreapp2.2
+/DevOpsInADay/DevOpsInADayWeb.Test/bin/Debug/netcoreapp2.2
+/DevOpsInADay/TestResults
+/DevOpsInADay/DevOpsInADayDeployment/obj/Debug
+/DevOpsInADay/DevOpsInADayDeployment/bin/Debug/staging/DevOpsInADayDeployment
+/DevOpsInADay/DevOpsInADayWeb/bin/Release/netcoreapp2.2
+/DevOpsInADay/DevOpsInADayWeb/Properties/PublishProfiles
+*.user
+/DevOpsInADay/DevOpsInADayWeb.UITest/bin/Debug/netcoreapp2.2
+/DevOpsInADay/DevOpsInADayWeb.UITest/obj
