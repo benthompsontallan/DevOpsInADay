@@ -44,6 +44,51 @@ Tampa, FL 33609",
                 Registrants = 27
             });
 
+            events.Add(new Event
+            {
+                EventId = 3,
+                Name = "DevOps in a Day Tempe",
+                Location = @"Microsoft Offices
+60 E Rio Salado Parkway
+Suite 1200
+Tempe, AZ 85281",
+                Date = DateTime.Parse("2019-05-15"),
+                Registrants = 78
+            });
+
+            events.Add(new Event
+            {
+                EventId = 4,
+                Name = "DevOps in a Day Burlington",
+                Location = @"Microsoft Technology Center
+5 Wayside Road
+Burlington, MA 01803",
+                Date = DateTime.Parse("2019-05-22"),
+                Registrants = 55
+            });
+
+            events.Add(new Event
+            {
+                EventId = 5,
+                Name = "DevOps in a Day New York",
+                Location = @"Microsoft Offices
+11 Times Square
+New York, NY 10036",
+                Date = DateTime.Parse("2019-06-06"),
+                Registrants = 55
+            });
+
+            events.Add(new Event
+            {
+                EventId = 6,
+                Name = "DevOps in a Day Charlotte",
+                Location = @"Microsoft Offices
+8055 Microsoft Way
+Charlotte, NC 28273",
+                Date = DateTime.Parse("2019-06-19"),
+                Registrants = 16
+            });
+
             return View(events);
         }
 
